@@ -271,7 +271,6 @@
                                 </state>
                                 <connections>
                                     <action selector="submitClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Z5-xo-gTD"/>
-                                    <segue destination="AoD-f3-RlC" kind="show" identifier="toCheckout" id="ECc-pU-zxl"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" placeholder="Number of Burgers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Eu-bC-v5x">
@@ -314,6 +313,7 @@
                         <outlet property="submitButton" destination="VgT-fX-Hpm" id="Bf2-7t-tMn"/>
                         <outlet property="thirdBurgerStackView" destination="rsQ-uP-ckY" id="fzm-dx-fDW"/>
                         <outlet property="thirdToppingStackView" destination="mVv-wZ-hXM" id="9GR-bB-mXK"/>
+                        <segue destination="AoD-f3-RlC" kind="show" identifier="toCheckout" id="nAr-eV-eRe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

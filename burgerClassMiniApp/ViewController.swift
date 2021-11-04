@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     var price : Double = 0.0
     
     
+    
     @IBOutlet weak var firstBurgerStackView: UIStackView!
     
     @IBOutlet weak var secondBurgerStackView: UIStackView!
